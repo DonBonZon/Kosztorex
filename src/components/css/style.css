@@ -1,0 +1,170 @@
+#bottomBarWrapper {
+	background-color: #343a40;
+	position: fixed;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	height: 50px;
+	width: 100%;
+	z-index: 2;
+	display: table;
+}
+.verticalyCenter {
+	display: table-cell;
+	vertical-align: middle;
+}
+#generatePdfButton {
+	margin-left: 5px;
+}
+#wholeSumLabel {
+	float: right;
+	color: #ffffff;
+	margin-top: 7px;
+	margin-right: 20px;
+	font-weight: bold;
+}
+
+.tab {
+	background-color: #343a40;
+	width: 100%;
+}
+.tab a {
+	color: #929598;
+}
+
+#calculatorScreenWrapper {
+	margin-top: 50px;
+	margin-bottom: 60px;
+}
+
+td {
+	height: 80px;
+	overflow: hidden;
+}
+
+table {
+	margin-left: auto;
+	margin-right: auto;
+	text-align: center;
+}
+
+#headerDepartmentName {
+	text-align: center;
+	margin: 1rem;
+}
+
+.addIcon {
+	margin: 4px 30px 0px 0px;
+	color: #ebb609;
+}
+
+.textInTable {
+	display: flex;
+	justify-content: center;
+	font-size: 1.5rem;
+	font-weight: bold;
+}
+
+#navbarWrapper {
+	position: fixed;
+	top: 0;
+	width: 100%;
+	z-index: 3;
+	height: 50px;
+}
+
+.editIcon {
+	padding: 5px;
+	color: #3ab505;
+}
+
+.deleteIcon {
+	padding: 10px;
+	margin-right: 30px;
+	color: #bf1730;
+}
+
+.editionIconsRow {
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+}
+
+.acceptEditIcon {
+	color: #3ab505;
+	margin-right: 30px;
+}
+
+textarea {
+	text-align: center;
+}
+
+Form {
+	width: 95%;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 1rem;
+}
+Label {
+	margin-top: 7px;
+}
+.form-control:focus {
+	border-color: #1d2124;
+	box-shadow: 0 0 0 0.2rem rgba(108, 117, 125, 0.5);
+}
+
+#sumLabel {
+	font-weight: bold;
+}
+.cellWithInputs {
+	min-width: 150px;
+	width: 15%;
+}
+.cellWithLabel {
+	min-width: 250px;
+	width: 25%;
+}
+
+.cellWithUnit {
+	min-width: 150px;
+}
+
+.additionalCostHelper {
+	color: #f50808;
+	font-size: 0.95rem;
+	font-style: oblique;
+}
+
+#nameLabel {
+	margin: auto;
+	vertical-align: middle;
+}
+
+.cellWithCheckbox {
+	min-width: 290px;
+}
+
+.marginLeft80 {
+	margin-left: 80px;
+}
+
+.spaceAround {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+}
+
+.additionalCostIconWrapper {
+	display: flex;
+	align-items: flex-start;
+	color: #1a88ff;
+	margin-top: 10px;
+}
+
+.additionalCostLabel {
+	vertical-align: middle;
+	margin-left: 3rem;
+	color: black;
+	font-size: 0.95rem;
+	font-weight: bold;
+}
